@@ -5,6 +5,8 @@ Ctags allows you to generate tag files supported by several editors, including [
 
 These reg-exes are tested with [universal-ctags](https://github.com/universal-ctags/ctags) (recommended), but should also work with [exuberant-ctags](http://ctags.sourceforge.net/) (unmaintained).
 
+Put the tags definitions in `~/.ctags.d/` or `./.ctags.d/` if you are using *universal-ctags*, or in the file `~/.ctags` or `./.ctags` if using *exuberant-ctags*.
+
 To generate a `TAGS` file for Emacs, run
 
 ```
