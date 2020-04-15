@@ -1,0 +1,5 @@
+--langdef=mexpr
+--langmap=mexpr:.mc
+--regex-mexpr=/^[[:blank:]]*type[[:blank:]]+([[:alpha:]][[:alnum:]_]*)/\1/t,type/
+--regex-mexpr=/^[[:blank:]]*((recursive)[[:blank:]]+)?let[[:blank:]]+([[:alpha:]][[:alnum:]_]*)/\3/b,binding/
+--regex-mexpr=/^[[:blank:]]*con[[:blank:]]+([[:alpha:]][[:alnum:]_]*)/\1/c,constructor/
