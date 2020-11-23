@@ -3,3 +3,6 @@
 --regex-mexpr=/^[[:blank:]]*type[[:blank:]]+([[:alpha:]][[:alnum:]_]*)/\1/t,type/
 --regex-mexpr=/^[[:blank:]]*((recursive)[[:blank:]]+)?let[[:blank:]]+([[:alpha:]][[:alnum:]_]*)/\3/b,binding/
 --regex-mexpr=/^[[:blank:]]*con[[:blank:]]+([[:alpha:]][[:alnum:]_]*)/\1/c,constructor/
+--regex-mexpr=/^[[:blank:]]*lang[[:blank:]]+([[:alpha:]][[:alnum:]_]*)/\1/l,lang/
+--regex-mexpr=/^[[:blank:]]*syn[[:blank:]]+([[:alpha:]][[:alnum:]_]*)/\1/S,syn/
+--regex-mexpr=/^[[:blank:]]*sem[[:blank:]]+([[:alpha:]][[:alnum:]_]*)/\1/s,sem/
